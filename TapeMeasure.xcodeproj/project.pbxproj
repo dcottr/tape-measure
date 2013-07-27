@@ -18,6 +18,7 @@
 		682647AC17A4665B00EB920A /* MeasureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 682647AA17A4665B00EB920A /* MeasureViewController.m */; };
 		682647AD17A4665B00EB920A /* MeasureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 682647AB17A4665B00EB920A /* MeasureViewController.xib */; };
 		682647B017A467C500EB920A /* MeasureHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 682647AF17A467C500EB920A /* MeasureHelper.m */; };
+		682647B517A46E4200EB920A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682647B417A46E4200EB920A /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		682647AE17A467C500EB920A /* MeasureHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeasureHelper.h; sourceTree = "<group>"; };
 		682647AF17A467C500EB920A /* MeasureHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeasureHelper.m; sourceTree = "<group>"; };
 		682647B117A4684100EB920A /* MeasureHelperDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeasureHelperDelegate.h; sourceTree = "<group>"; };
+		682647B417A46E4200EB920A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				682647B517A46E4200EB920A /* CoreMotion.framework in Frameworks */,
 				6826478417A4644B00EB920A /* UIKit.framework in Frameworks */,
 				6826478617A4644B00EB920A /* Foundation.framework in Frameworks */,
 				6826478817A4644B00EB920A /* CoreGraphics.framework in Frameworks */,
@@ -76,6 +79,7 @@
 		6826478217A4644B00EB920A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				682647B417A46E4200EB920A /* CoreMotion.framework */,
 				6826478317A4644B00EB920A /* UIKit.framework */,
 				6826478517A4644B00EB920A /* Foundation.framework */,
 				6826478717A4644B00EB920A /* CoreGraphics.framework */,
