@@ -10,12 +10,14 @@
 		6826478417A4644B00EB920A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6826478317A4644B00EB920A /* UIKit.framework */; };
 		6826478617A4644B00EB920A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6826478517A4644B00EB920A /* Foundation.framework */; };
 		6826478817A4644B00EB920A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6826478717A4644B00EB920A /* CoreGraphics.framework */; };
-		6826478E17A4644B00EB920A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6826478C17A4644B00EB920A /* InfoPlist.strings */; };
 		6826479017A4644B00EB920A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6826478F17A4644B00EB920A /* main.m */; };
 		6826479417A4644B00EB920A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6826479317A4644B00EB920A /* AppDelegate.m */; };
-		6826479617A4644B00EB920A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6826479517A4644B00EB920A /* Default.png */; };
-		6826479817A4644B00EB920A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6826479717A4644B00EB920A /* Default@2x.png */; };
-		6826479A17A4644B00EB920A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6826479917A4644B00EB920A /* Default-568h@2x.png */; };
+		682647A417A465E500EB920A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 682647A117A465E500EB920A /* Default-568h@2x.png */; };
+		682647A517A465E500EB920A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 682647A217A465E500EB920A /* Default.png */; };
+		682647A617A465E500EB920A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 682647A317A465E500EB920A /* Default@2x.png */; };
+		682647AC17A4665B00EB920A /* MeasureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 682647AA17A4665B00EB920A /* MeasureViewController.m */; };
+		682647AD17A4665B00EB920A /* MeasureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 682647AB17A4665B00EB920A /* MeasureViewController.xib */; };
+		682647B017A467C500EB920A /* MeasureHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 682647AF17A467C500EB920A /* MeasureHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,14 +26,19 @@
 		6826478517A4644B00EB920A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6826478717A4644B00EB920A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6826478B17A4644B00EB920A /* TapeMeasure-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapeMeasure-Info.plist"; sourceTree = "<group>"; };
-		6826478D17A4644B00EB920A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6826478F17A4644B00EB920A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6826479117A4644B00EB920A /* TapeMeasure-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TapeMeasure-Prefix.pch"; sourceTree = "<group>"; };
 		6826479217A4644B00EB920A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6826479317A4644B00EB920A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6826479517A4644B00EB920A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		6826479717A4644B00EB920A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		6826479917A4644B00EB920A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		682647A117A465E500EB920A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		682647A217A465E500EB920A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		682647A317A465E500EB920A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		682647A917A4665B00EB920A /* MeasureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeasureViewController.h; sourceTree = "<group>"; };
+		682647AA17A4665B00EB920A /* MeasureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeasureViewController.m; sourceTree = "<group>"; };
+		682647AB17A4665B00EB920A /* MeasureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeasureViewController.xib; sourceTree = "<group>"; };
+		682647AE17A467C500EB920A /* MeasureHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeasureHelper.h; sourceTree = "<group>"; };
+		682647AF17A467C500EB920A /* MeasureHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeasureHelper.m; sourceTree = "<group>"; };
+		682647B117A4684100EB920A /* MeasureHelperDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeasureHelperDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				6826478917A4644B00EB920A /* TapeMeasure */,
+				682647A017A465E500EB920A /* Resources */,
 				6826478217A4644B00EB920A /* Frameworks */,
 				6826478117A4644B00EB920A /* Products */,
 			);
@@ -78,8 +86,8 @@
 		6826478917A4644B00EB920A /* TapeMeasure */ = {
 			isa = PBXGroup;
 			children = (
-				6826479217A4644B00EB920A /* AppDelegate.h */,
-				6826479317A4644B00EB920A /* AppDelegate.m */,
+				682647A817A4662F00EB920A /* MeasureView */,
+				682647A717A465FD00EB920A /* Main */,
 				6826478A17A4644B00EB920A /* Supporting Files */,
 			);
 			path = TapeMeasure;
@@ -89,14 +97,42 @@
 			isa = PBXGroup;
 			children = (
 				6826478B17A4644B00EB920A /* TapeMeasure-Info.plist */,
-				6826478C17A4644B00EB920A /* InfoPlist.strings */,
-				6826478F17A4644B00EB920A /* main.m */,
 				6826479117A4644B00EB920A /* TapeMeasure-Prefix.pch */,
-				6826479517A4644B00EB920A /* Default.png */,
-				6826479717A4644B00EB920A /* Default@2x.png */,
-				6826479917A4644B00EB920A /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		682647A017A465E500EB920A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				682647A117A465E500EB920A /* Default-568h@2x.png */,
+				682647A217A465E500EB920A /* Default.png */,
+				682647A317A465E500EB920A /* Default@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		682647A717A465FD00EB920A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6826479217A4644B00EB920A /* AppDelegate.h */,
+				6826479317A4644B00EB920A /* AppDelegate.m */,
+				6826478F17A4644B00EB920A /* main.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		682647A817A4662F00EB920A /* MeasureView */ = {
+			isa = PBXGroup;
+			children = (
+				682647A917A4665B00EB920A /* MeasureViewController.h */,
+				682647AA17A4665B00EB920A /* MeasureViewController.m */,
+				682647AB17A4665B00EB920A /* MeasureViewController.xib */,
+				682647AE17A467C500EB920A /* MeasureHelper.h */,
+				682647AF17A467C500EB920A /* MeasureHelper.m */,
+				682647B117A4684100EB920A /* MeasureHelperDelegate.h */,
+			);
+			name = MeasureView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,10 +186,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6826478E17A4644B00EB920A /* InfoPlist.strings in Resources */,
-				6826479617A4644B00EB920A /* Default.png in Resources */,
-				6826479817A4644B00EB920A /* Default@2x.png in Resources */,
-				6826479A17A4644B00EB920A /* Default-568h@2x.png in Resources */,
+				682647A417A465E500EB920A /* Default-568h@2x.png in Resources */,
+				682647A517A465E500EB920A /* Default.png in Resources */,
+				682647A617A465E500EB920A /* Default@2x.png in Resources */,
+				682647AD17A4665B00EB920A /* MeasureViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,21 +202,12 @@
 			files = (
 				6826479017A4644B00EB920A /* main.m in Sources */,
 				6826479417A4644B00EB920A /* AppDelegate.m in Sources */,
+				682647AC17A4665B00EB920A /* MeasureViewController.m in Sources */,
+				682647B017A467C500EB920A /* MeasureHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		6826478C17A4644B00EB920A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6826478D17A4644B00EB920A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6826479B17A4644B00EB920A /* Debug */ = {
@@ -280,6 +307,7 @@
 				6826479F17A4644B00EB920A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
