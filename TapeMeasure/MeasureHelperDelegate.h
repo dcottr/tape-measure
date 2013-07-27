@@ -10,4 +10,6 @@
 
 @protocol MeasureHelperDelegate <NSObject>
 
+-(void)didUpdateDistance:(double)distance;
+
 @end

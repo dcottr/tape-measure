@@ -44,4 +44,10 @@
     _startBtn.selected = _isMeasuring;
 }
 
+-(void)didUpdateDistance:(double)distance
+{
+    _distanceLabel.text = [NSString stringWithFormat:@"%f", distance];
+}
+
+
 @end
